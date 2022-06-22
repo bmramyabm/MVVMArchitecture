@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity(),Listener {
 
     override fun onFailure() {
         Toast.makeText(this,"Failure",Toast.LENGTH_LONG).show()
+        print("Hello World")
         Log.i(TAG, "Failure : ")
     }
     companion object{
